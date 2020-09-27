@@ -1,0 +1,125 @@
+html {
+    background-color: rgb(228, 226, 226);
+}
+
+h1 {
+    margin: 30px 0px 0px 60px;
+}
+
+.nav {
+    position: absolute;
+    margin: -25px 0px 0px 950px;
+}
+
+.nav a {
+    padding: 15px;
+}
+
+#about_us {
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    margin: 40px 0px 0px 165px;
+    text-align: center;
+}
+
+.intro {
+    margin: 140px 0px 0px 0px;
+    font-size: 20px;
+
+}
+
+#how_it_works {
+    width: 1000px;
+    height: 400px;
+    margin: 450px 0px 0px 165px;
+    text-align: center;
+}
+
+.description {
+    margin: 140px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#tours {
+    background-color: rgb(228, 226, 226);
+    width: 1000px;
+    height: 500px;
+    margin: -60px 0px 0px 170px;
+}
+
+#tours div {
+    height: 400px;
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#tours div:hover {
+    border: 3px solid blue;
+}
+
+#tours p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.p1 {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+}
+
+.city {
+    height: 300px;
+    width: 300px;
+}
+
+.p2 {
+    position: absolute;
+    margin: 0px 0px 0px 345px;
+}
+
+.offroad {
+    height: 300px;
+    width: 300px;
+}
+
+.p3 {
+    position: absolute;
+    margin: 00px 0px 0px 690px;
+}
+
+.mountain {
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(187, 185, 185);
+    position: absolute;
+    width: 1000px;
+    height: 90px;
+    margin: 0px 0px 0px 170px;
+    font-family: sans-serif;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+footer > ul > li {
+    padding: 0 7px;
+    margin: 0px 20px 0px 0px;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 12px 0px 0px;
+    padding: 0px 16px;
+}
